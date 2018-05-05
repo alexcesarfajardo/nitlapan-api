@@ -1,0 +1,43 @@
+{
+  "name": "productor",
+  "plural": "productors",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "institutionalclient": {
+      "type": "string",
+      "required": true
+    },
+    "sex": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "socialarea": {
+      "type": "string",
+      "required": true
+    },
+    "techlevel": {
+      "type": "string",
+      "required": true
+    },
+    "identification": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
